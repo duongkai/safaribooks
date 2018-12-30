@@ -50,8 +50,8 @@ class SafariBooksSpider(scrapy.spiders.Spider):
     toc_url = 'https://learning.oreilly.com/nest/epub/toc/?book_id='
     name = 'SafariBooks'
     # allowed_domains = []
-    start_urls = ['https://learning.oreilly.com/']
-    host = 'https://learning.oreilly.com/'
+    start_urls = ['https://learning.oreilly.com/accounts/login']
+    host = 'https://learning.oreilly.com'
 
     def __init__(
         self,
